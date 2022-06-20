@@ -1,0 +1,10 @@
+package com.megah.springbootlog4j2;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import ch.qos.logback.classic.Logger;
+
+@RestController
+public class SimpleController {
+
+}

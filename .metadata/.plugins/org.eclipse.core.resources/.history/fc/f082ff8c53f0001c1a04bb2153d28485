@@ -1,0 +1,5 @@
+package com.megah.springbootlog4j2;
+
+public class SimpleController {
+
+}
