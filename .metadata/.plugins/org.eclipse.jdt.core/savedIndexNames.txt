@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+E:\My Projects\My Spring Boot Examples\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
