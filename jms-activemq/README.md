@@ -1,5 +1,5 @@
 ### Spring Boot - JMS
-#### JMS + ActiveMQ + @Scheduled Annotation + @Async Annotation
+#### JMS
 #### ActiveMQ
 #### @Scheduled Annotation
 #### @Async Annotation
