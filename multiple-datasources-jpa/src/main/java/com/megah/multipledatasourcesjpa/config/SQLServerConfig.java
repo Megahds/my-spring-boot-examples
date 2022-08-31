@@ -31,6 +31,7 @@ public class SQLServerConfig {
 		return DataSourceBuilder.create().build();
 	}
 	
+//	@Primary
 //	@Bean
 //    @ConfigurationProperties("spring.datasource.sqlserver")
 //    public DataSourceProperties sqlserverDataSourceProperties() {
