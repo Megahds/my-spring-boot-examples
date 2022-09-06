@@ -48,21 +48,21 @@ public class MyFilter implements Filter {
 		
 		log.info("Executing MyFilter");
 		
-		int ipcek = 0;
+		int check = 0;
 
-		String[] ipList = ipWhiteList.split("\\|");
+		String[] listIp = ipWhiteList.split("\\|");
 
 		String ipAddress = request.getRemoteAddr();
 		System.out.println("IP : " + ipAddress);
 
-		for (String x : ipList) {
+		for (String x : listIp) {
 			if (x.equals(ipAddress)) {
-				ipcek = 1;
+				check = 1;
 				break;
 			}
 		}
 
-		if (ipcek == 0) {
+		if (check == 0) {
 			
 //			((ResponseFacade) response).setStatus(403);
 //			((ResponseFacade) response).sendError(403, "Your IP don't have access!");
