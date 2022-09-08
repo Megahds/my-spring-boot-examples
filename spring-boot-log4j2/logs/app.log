@@ -1,40 +1,161 @@
-2022-06-20 14:47:41,320 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 12296 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
-2022-06-20 14:47:41,335 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
-2022-06-20 14:47:41,402 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-06-20 14:47:41,402 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-06-20 14:47:42,417 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-06-20 14:47:42,437 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-06-20 14:47:42,437 INFO o.a.c.c.StandardService - Starting service [Tomcat]
-2022-06-20 14:47:42,438 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-20 14:47:42,595 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-2022-06-20 14:47:42,595 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1192 ms
-2022-06-20 14:47:42,987 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2022-06-20 14:47:43,004 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-06-20 14:47:43,028 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-20 14:47:43,042 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 2.213 seconds (JVM running for 3.585)
-2022-06-20 14:47:43,045 INFO c.m.s.SpringBootLog4j2Application - info
-2022-06-20 14:47:43,046 WARN c.m.s.SpringBootLog4j2Application - warn
-2022-06-20 14:47:43,046 ERROR c.m.s.SpringBootLog4j2Application - error
-2022-06-20 14:48:53,319 INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-20 14:48:53,319 INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-06-20 14:48:53,321 INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-2022-06-20 14:50:56,458 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 12296 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
-2022-06-20 14:50:56,459 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
-2022-06-20 14:50:56,677 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-06-20 14:50:56,678 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-06-20 14:50:56,679 INFO o.a.c.c.StandardService - Starting service [Tomcat]
-2022-06-20 14:50:56,679 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-20 14:50:56,697 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-2022-06-20 14:50:56,697 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 233 ms
-2022-06-20 14:50:56,794 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2022-06-20 14:50:56,804 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-06-20 14:50:56,810 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-20 14:50:56,818 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 0.453 seconds (JVM running for 197.36)
-2022-06-20 14:50:56,821 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2022-06-20 14:50:56,822 INFO c.m.s.SpringBootLog4j2Application - info
-2022-06-20 14:50:56,822 WARN c.m.s.SpringBootLog4j2Application - warn
-2022-06-20 14:50:56,822 ERROR c.m.s.SpringBootLog4j2Application - error
-2022-06-20 14:51:17,784 INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-20 14:51:17,784 INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-06-20 14:51:17,785 INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-2022-06-20 14:51:33,931 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-09-08 14:41:22,196 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 11392 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:41:22,211 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:41:22,274 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-08 14:41:22,275 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-08 14:41:23,533 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:41:23,553 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:41:23,554 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:41:23,555 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:41:23,658 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:41:23,659 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+2022-09-08 14:41:24,047 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-08 14:41:24,067 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:41:24,090 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 14:41:24,105 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 2.375 seconds (JVM running for 3.762)
+2022-09-08 14:41:24,108 INFO c.m.s.SpringBootLog4j2Application - info
+2022-09-08 14:41:24,108 WARN c.m.s.SpringBootLog4j2Application - warn
+2022-09-08 14:41:24,108 ERROR c.m.s.SpringBootLog4j2Application - error
+2022-09-08 14:44:56,076 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-09-08 14:46:07,570 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 11656 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:46:07,571 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:46:07,646 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-08 14:46:07,646 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-08 14:46:08,602 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:46:08,620 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:46:08,620 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:46:08,621 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:46:08,713 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:46:08,713 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1066 ms
+2022-09-08 14:46:09,058 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-08 14:46:09,072 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:46:09,111 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 14:46:09,124 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 2.004 seconds (JVM running for 3.801)
+2022-09-08 14:46:09,127 INFO c.m.s.SpringBootLog4j2Application - info
+2022-09-08 14:46:09,127 WARN c.m.s.SpringBootLog4j2Application - warn
+2022-09-08 14:46:09,127 ERROR c.m.s.SpringBootLog4j2Application - error
+2022-09-08 14:48:19,148 INFO o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-08 14:48:19,148 INFO o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-08 14:48:19,149 INFO o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2022-09-08 14:48:37,649 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-09-08 14:48:47,115 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 9656 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:48:47,127 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:48:47,190 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-08 14:48:47,190 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-08 14:48:48,146 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:48:48,164 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:48:48,165 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:48:48,166 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:48:48,314 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:48:48,315 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1124 ms
+2022-09-08 14:48:48,673 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-08 14:48:48,687 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:48:48,710 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 14:48:48,721 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 2.018 seconds (JVM running for 3.557)
+2022-09-08 14:48:48,724 INFO c.m.s.SpringBootLog4j2Application - info
+2022-09-08 14:48:48,724 WARN c.m.s.SpringBootLog4j2Application - warn
+2022-09-08 14:48:48,724 ERROR c.m.s.SpringBootLog4j2Application - error
+2022-09-08 14:49:04,540 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 9656 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:49:04,541 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:49:04,794 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:49:04,795 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:04,796 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:49:04,796 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:49:04,818 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:49:04,818 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 272 ms
+2022-09-08 14:49:04,910 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-08 14:49:04,916 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:04,921 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 14:49:04,932 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 0.461 seconds (JVM running for 19.768)
+2022-09-08 14:49:04,934 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-09-08 14:49:04,934 INFO c.m.s.SpringBootLog4j2Application - info
+2022-09-08 14:49:04,934 WARN c.m.s.SpringBootLog4j2Application - warn
+2022-09-08 14:49:04,934 ERROR c.m.s.SpringBootLog4j2Application - error
+2022-09-08 14:49:10,259 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 11316 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:49:10,260 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:49:10,325 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-08 14:49:10,325 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-08 14:49:11,310 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:49:11,330 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:11,331 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:49:11,331 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:49:11,411 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:49:11,411 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1085 ms
+2022-09-08 14:49:11,761 WARN o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-09-08 14:49:11,776 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:11,780 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-09-08 14:49:11,784 INFO o.a.c.h.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:11,784 INFO o.a.c.c.StandardService - Stopping service [Tomcat]
+2022-09-08 14:49:11,791 INFO o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:11,791 INFO o.a.c.h.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:11,800 INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-08 14:49:11,819 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-09-08 14:49:21,824 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-09-08 14:49:30,539 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 10824 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:49:30,540 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:49:30,618 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-08 14:49:30,618 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-08 14:49:31,826 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:49:31,846 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:31,846 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:49:31,847 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:49:31,931 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:49:31,931 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1313 ms
+2022-09-08 14:49:32,355 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-08 14:49:32,370 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:49:32,392 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 14:49:32,405 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 2.381 seconds (JVM running for 4.119)
+2022-09-08 14:49:32,409 INFO c.m.s.SpringBootLog4j2Application - info
+2022-09-08 14:49:32,409 WARN c.m.s.SpringBootLog4j2Application - warn
+2022-09-08 14:49:32,409 ERROR c.m.s.SpringBootLog4j2Application - error
+2022-09-08 14:49:48,939 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-09-08 14:53:49,350 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 9520 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:53:49,361 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:53:49,422 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-08 14:53:49,423 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-08 14:53:50,498 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:53:50,530 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:53:50,532 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:53:50,533 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:53:50,672 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:53:50,674 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1250 ms
+2022-09-08 14:53:51,116 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-08 14:53:51,130 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:53:51,152 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 14:53:51,169 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 2.243 seconds (JVM running for 3.74)
+2022-09-08 14:53:51,173 INFO c.m.s.SpringBootLog4j2Application - info
+2022-09-08 14:53:51,173 WARN c.m.s.SpringBootLog4j2Application - warn
+2022-09-08 14:53:51,174 ERROR c.m.s.SpringBootLog4j2Application - error
+2022-09-08 14:54:00,691 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-09-08 14:54:10,807 INFO c.m.s.SpringBootLog4j2Application - Starting SpringBootLog4j2Application using Java 16.0.2 on DESKTOP-LKGMG0H with PID 11420 (E:\My Projects\My Spring Boot Examples\spring-boot-log4j2\target\classes started by user in E:\My Projects\My Spring Boot Examples\spring-boot-log4j2)
+2022-09-08 14:54:10,808 INFO c.m.s.SpringBootLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+2022-09-08 14:54:10,878 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-08 14:54:10,878 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-08 14:54:11,977 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-09-08 14:54:11,995 INFO o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:54:11,996 INFO o.a.c.c.StandardService - Starting service [Tomcat]
+2022-09-08 14:54:11,996 INFO o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-08 14:54:12,115 INFO o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2022-09-08 14:54:12,115 INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1236 ms
+2022-09-08 14:54:12,473 INFO o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-09-08 14:54:12,489 INFO o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-08 14:54:12,513 INFO o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-08 14:54:12,525 INFO c.m.s.SpringBootLog4j2Application - Started SpringBootLog4j2Application in 2.207 seconds (JVM running for 3.831)
+2022-09-08 14:54:12,529 INFO c.m.s.SpringBootLog4j2Application - info
+2022-09-08 14:54:12,529 WARN c.m.s.SpringBootLog4j2Application - warn
+2022-09-08 14:54:12,529 ERROR c.m.s.SpringBootLog4j2Application - error
+2022-09-08 14:54:42,176 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
