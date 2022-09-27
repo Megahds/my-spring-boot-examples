@@ -17,10 +17,14 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.megah.crudmysql2.model.Person;
 
-@Component
+//@Component
+@Transactional
+@Repository
 public class MysqlDao {
 	
 	private static final Logger log = LogManager.getLogger(MysqlDao.class);

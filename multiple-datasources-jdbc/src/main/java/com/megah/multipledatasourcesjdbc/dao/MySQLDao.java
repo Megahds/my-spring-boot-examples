@@ -9,11 +9,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.megah.multipledatasourcesjdbc.model.Person;
 
-@Service
+//@Service
+@Transactional
+@Repository
 public class MySQLDao {
 
 	private static final Logger log = LogManager.getLogger(MySQLDao.class);
