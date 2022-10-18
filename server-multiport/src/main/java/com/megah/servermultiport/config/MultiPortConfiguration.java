@@ -24,6 +24,9 @@ public class MultiPortConfiguration {
 
 	@Value("${server.second-port:null}")
 	private String secondPort;
+	
+	@Value("${server.second-port.connection-timeout}")
+	private String secondPortConnectionTimeout;
 
 	@Bean
 	public WebServerFactoryCustomizer servletContainer() {
@@ -51,6 +54,7 @@ public class MultiPortConfiguration {
 			Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
 			connector.setScheme("http");
 			connector.setPort(Integer.valueOf(secondPort));
+			connector.setProperty("connectionTimeout", secondPortConnectionTimeout);
 			return new Connector[] { connector };
 		} else {
 			return new Connector[] {};
