@@ -1,8 +1,12 @@
 package com.megah.servletfilter3;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -15,7 +19,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 
@@ -32,8 +38,11 @@ public class MyFilter implements Filter {
 		log.info("Initializing filter :{}", this);
 	}
 	
-	@Value("${ip.white-list}")
-	private String ipWhiteList;
+//	@Value("${ip.white-list}")
+//	private String ipWhiteList;
+	
+	@Autowired
+	private Environment env;
 	
 	private final ObjectMapper mapper;
 	
@@ -48,6 +57,30 @@ public class MyFilter implements Filter {
 		
 		log.info("Executing MyFilter");
 		
+		// TODO: get ip whitelist
+		String[] activeProfiles = env.getActiveProfiles();
+
+		Properties prop = new Properties();
+		String fileName = "application.properties";
+
+		String fileLoc = env.getProperty("spring.config.location");
+
+		if (fileLoc != null) {
+			fileLoc = fileLoc.replaceFirst("optional:", "");
+		}
+
+		if (activeProfiles.length == 0) {
+			prop.load(MyFilter.class.getClassLoader().getResourceAsStream(fileName));
+		} else {
+			fileName = "application-" + activeProfiles[0] + ".properties";
+			File file = new File(fileLoc + fileName);
+			InputStream in = new FileInputStream(file);
+			prop.load(in);
+		}
+		
+		String ipWhiteList = prop.getProperty("ip.white-list");
+		
+		// TODO: validasi ip
 		int check = 0;
 
 		String[] listIp = ipWhiteList.split("\\|");
